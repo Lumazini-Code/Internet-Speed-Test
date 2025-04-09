@@ -16,20 +16,20 @@ teste = speedtest.Speedtest()
 
 
 
-with open('Download.dll', "w") as bla:
-    blabla = bla.write('')
+with open('Download.dll', "w") as downFile:
+    down = downFile.write('')
 
-with open('upload.dll', "w") as blablabla:
-    blablablabla = blablabla.write('')
+with open('upload.dll', "w") as upFile:
+    up = upFile.write('')
 
 
 
 while True:
-    with open('download.dll', "r") as sla:
-        velocidade_download = sla.read()
+    with open('download.dll', "r") as downfile2:
+        velocidade_download = downfile2.read()
 
-    with open('upload.dll', "r") as slaa:
-        velocidade_upload = slaa.read()
+    with open('upload.dll', "r") as upfile2:
+        velocidade_upload = upfile2.read()
 
 
 
@@ -75,4 +75,4 @@ while True:
         
         if eventos == 'Créditos':
             webbrowser.open('https://www.youtube.com/channel/UCCDHZbCirMnOeAyWcaUan6Q')
-            webbrowser.open('https://github.com/Lumazini')
+            webbrowser.open('https://github.com/lumazini-code')
